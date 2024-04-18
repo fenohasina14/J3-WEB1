@@ -1,0 +1,231 @@
+* {
+    font-family: monospace;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+body{
+    background-color: rgb(201, 251, 255);
+}
+
+.navigation a {
+    text-decoration: none;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    font-size: 1.5rem;
+}
+
+header{
+    background-color: var(--primary-color);
+    height: 4vw;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.navigation {
+    height: 5vw;
+    width: 100vw;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 2.5vw;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url(Image/closeup-black-electric-guitar-dark-background.jpg);
+    height: 45vw;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.intro h1 {
+    overflow: hidden;
+    border-right: .15em;
+    white-space: nowrap;
+    animation: typing 5s steps(40, end)  alternate;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+    color:white;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.bioEtImage{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.classique{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.accoustique{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.folk{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.electrique{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.basse{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.bio h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.type h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.accessoire h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.conseil h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.conseil{
+    text-align: center;
+}
+
+.accessoire1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.accessoire2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mediator{
+    border: solid;
+    width: 50vw;
+    height: 25vw;
+    border-radius: 2vw;
+    margin-left: 1vw;
+}
+
+.capodastre{
+    border: solid;
+    width: 50vw;
+    height: 25vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+}
+
+
+.corps{
+    padding-top: 45vw;
+}
+
+.accordeur{
+    border: solid;
+    width: 50vw;
+    height: 25vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+    margin-top: 2vw;
+}
+
+.metronome{
+    border: solid;
+    width: 50vw;
+    height: 25vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+    margin-top: 2vw;
+}
+
+footer{
+    background-color: var(--primary-color);
+    height: 10vw;
+    width: auto;
+    position: relative;
+    position: absolute;
+    width: 100%;
+}
+
+.pied{
+    display: flex;
+    padding-top: 2vw;
+    margin-top: 1vw;
+}
+
+.contact{
+    margin-left: 55vw;
+}
+
+:root{
+    --primary-color: rgb(255, 170, 0);
+    --secondary-color: rgb(0, 51, 255);
+}
+
+.logoEtNom{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.nom{
+    display: flex;
+}
+
+.nom2{
+    color: var(--secondary-color);
+}
+
+.logo img{
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 50%;
+}
+
+.partenaire{
+    margin-left: 2vw;
+}
