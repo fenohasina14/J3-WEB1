@@ -193,6 +193,7 @@ footer{
     position: relative;
     position: absolute;
     width: 100%;
+    height: auto;
 }
 
 .pied{
@@ -232,4 +233,32 @@ footer{
 
 .partenaire{
     margin-left: 2vw;
+}
+
+@media screen and (max-width : 1120px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 20vw;
+    }
+    .navigation a{
+        display: flex;
+        flex-direction: column;
+    }
+    .corps{
+        padding-top: 100vw;
+    }
+    .mediator{
+        height: 30vw;
+    }
+    .capodastre{
+        height: 30vw;
+    }
+    .accordeur{
+        height: 30vw;
+    }
+    .metronome{
+        height: 30vw;
+    }
+
 }
