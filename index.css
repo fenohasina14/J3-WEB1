@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    color: white;
 }
 
 * {
@@ -10,7 +11,7 @@ html {
 }
 
 body{
-    background-color:#99582A;
+    background-color:#000022;
 }
 
 .navigation a {
