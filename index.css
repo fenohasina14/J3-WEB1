@@ -12,6 +12,13 @@ html {
 
 body{
     background-color:#000022;
+    animation: backgroundAnimation 5s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-color: #000022; }
+    50% { background-color: #000033; }
+    100% { background-color: #000022; }
 }
 
 .navigation a {
@@ -58,11 +65,12 @@ header{
     overflow: hidden;
     border-right: .15em;
     white-space: nowrap;
-    animation: typing 5s steps(40, end)  alternate;
+    animation: typing 6s steps(40, end)  alternate infinite;
     text-align: center;
     font-size: 1.5rem;
     align-items: center;
     color:white;
+    margin-top: -2vw;
 }
 
 @keyframes typing {
@@ -73,6 +81,10 @@ header{
     to {
         width: 100%;
     }
+    0% { color: white; }
+    50% { color: #ff9500; }
+    100% { color: white; }
+
 }
 
 .bioEtImage{
