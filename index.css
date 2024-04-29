@@ -65,7 +65,7 @@ header{
     overflow: hidden;
     border-right: .15em;
     white-space: nowrap;
-    animation: typing 6s steps(40, end)  alternate infinite;
+    animation: typing 5s steps(40, end)  alternate infinite;
     text-align: center;
     font-size: 1.5rem;
     align-items: center;
